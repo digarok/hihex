@@ -14,7 +14,7 @@ func check(e error) {
 }
 
 func isAscii(b byte) bool {
-	return b > 32 && b < 127
+	return b >= 32 && b < 127
 }
 
 func usage() {
