@@ -48,7 +48,7 @@ DESCRIPTION
 }
 
 func main() {
-	var offset = flag.Int("offset", 0x002000, "24-bit hex address ofset to start at (eg 0x002000)")
+	var offset = flag.Int("offset", 0x000000, "24-bit hex address ofset to start at (eg 0x002000)")
 	var chunksize = flag.Int("chunksize", 16, "number of hex bytes to display per line")
 	var verbose = flag.Bool("verbose", false, "use -verbose to turn on informational messages")
 	var lowercase = flag.Bool("lowercase", false, "use -lowercase to print out lower case hex alpha chars")
