@@ -64,7 +64,7 @@ func main() {
 	var data, err = ioutil.ReadFile(filename)
 	check(err)
 	if *verbose == true {
-		fmt.Printf("hihex v0.0  by  Dagen Brock\n\n")
+		fmt.Printf("hihex v0.0.0  by  Dagen Brock\n\n")
 		fmt.Println("Now processing filename:     ", filename)
 		fmt.Println("File Size (decimal):         ", len(data))
 		fmt.Printf("File Size (hexadecimal):     %X\n", len(data))
@@ -113,6 +113,5 @@ func main() {
 		}
 		i += *chunksize
 		fmt.Println()
-
 	}
 }

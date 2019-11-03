@@ -1,5 +1,5 @@
 # hihex
-The `hihex` utility works like the `hexdump` command with a special addition.  It allows you to view the character output of ASCII values that have the high bit set.
+The `hihex` utility works like the `hexdump` command with a special addition to view "high-bit ascii".  This allows you to view the character output of ASCII values that have the high bit set wheras hexdump doesn't understand these values.
 
 This is particularly useful for examining binary files from older computers, such as the Apple II, where they would commonly use the high bit versions of characters to display text in other modes such as inverse.  
 
